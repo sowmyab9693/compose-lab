@@ -3,7 +3,7 @@ const express = require("express");
 const app = express();
 
 app.get("/", (req, res) => {
-  res.send("Hello from Backend API 🚀");
+  res.send("Deployed via CI/CD 🚀");
 });
 
 app.get("/health", (req, res) => {
